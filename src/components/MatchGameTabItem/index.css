@@ -1,0 +1,29 @@
+.tab-item-container {
+  padding: 4px;
+  margin: 10px;
+}
+
+.tabs-btn {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.active-tab-btn {
+  border-bottom: 2px solid #fec653;
+  color: #fec653;
+}
+
+@media(max-width: 575px) {
+  .tabs-btn {
+  
+  font-size: 20px;
+  
+}
+
+}

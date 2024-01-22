@@ -1,0 +1,36 @@
+.item-container {
+  margin: 5px;
+}
+
+.img {
+  height: 145px;
+  width: 145px;
+}
+
+@media (max-width: 576px) {
+  .img {
+    height: 75px;
+    width: 75px;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .img {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .item-container {
+    margin: 5px;
+  }
+
+  .img {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+.thumbnail-btn {
+  outline: none;
+}
